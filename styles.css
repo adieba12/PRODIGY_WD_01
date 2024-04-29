@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: rgb(167, 50, 235);
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Hover effect */
+nav ul li a:hover {
+    background-color: rgb(255, 60, 255);
+    font-size: 18px; /* Increase font size */
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Notification button styles */
+  #notificationButton {
+    background-color:rgb(167, 50, 235);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #notificationButton:hover {
+    background-color: rgb(255, 60, 255);
+  }
+  
+  /* Footer styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(167, 50, 235);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Popup message styles */
+  .popup {
+    display: none;
+    background-color: rgb(167, 50, 235);
+    padding: 10px;
+    border: 1px solid rgb(255, 60, 255);
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Connect with Us section styles */
+  .connect-with-us {
+    margin-top: 20px;
+  }
+  
+  .social-media-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(167, 50, 235);
+  }
+  
+  .social-media-links a i {
+    margin-right: 5px;
+  }
+
+  /* Button styles */
+button[type="submit"] {
+    background-color: rgb(167, 50, 235);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect */
+  button[type="submit"]:hover {
+    background-color: rgb(255, 60, 255);
+  }
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<br>
+  <nav>
+    <div class="container">
+      <h1 class="logo">SweepstakesSavvy</h1>
+      <ul class="nav-links">
+        <li><a href="landing.html">Home</a></li>
+        <li><a href="contest.html">Contest Form</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <section class ="contest-info">
+        <div class="container">
+          <h2>Join Our Contest & Giveaway!</h2>
+          <p>Enter our contest and stand a chance to win exciting prizes! Here's how to participate:</p>
+          <ol>
+            <li>Follow us on social media.</li>
+            <li>Share our contest post with your friends.</li>
+            <li>Fill out the entry form below with your details.</li>
+            <li>Stay tuned for the winner announcement!</li>
+          </ol>
+          <p>Don't miss out on this opportunity to win amazing prizes. Enter now!</p>
+          <form id="contest-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Enter Contest</button>
+          </form>
+        </div>
+      </section>
+
+    
+    <script>
+      // Function to show notification
+      function showNotification() {
+        // Check if the browser supports notifications
+        if (!("Notification" in window)) {
+          alert("This browser does not support desktop notification");
+        } else {
+          // Request permission to display notifications
+          Notification.requestPermission().then(function (permission) {
+            // If permission is granted, show the notification
+            if (permission === "granted") {
+              var notification = new Notification("Notification Title", {
+                body: "This is a notification message.",
+                icon: "path/to/notification-icon.png" // Path to your notification icon
+              });
+      
+              // Close the notification after 5 seconds
+              setTimeout(function () {
+                notification.close();
+              }, 5000);
+            }
+          });
+        }
+      }
+      
+      // Add event listener to the button
+      document.getElementById("notificationButton").addEventListener("click", function() {
+        showNotification();
+      });
+      </script>
+
+
+
+
+<footer>
+  <p>&copy; 2024 SweepstakesSavvy Contest & Giveaways Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

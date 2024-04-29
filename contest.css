@@ -1,0 +1,124 @@
+/* contest.css */
+
+/* Body styles */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: rgb(167, 50, 235);
+    color: white;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Hover effect */
+nav ul li a:hover {
+    background-color: rgb(255, 60, 255);
+    font-size: 18px; /* Increase font size */
+  }
+
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  form input[type="email"],
+  form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(167, 50, 235);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="email"] {
+    font-size: 16px;
+  }
+  
+  form input[type="submit"] {
+    background-color: rgb(167, 50, 235);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: rgb(255, 60, 255);
+  }
+  
+  /* Share buttons styles */
+  #share-buttons {
+    margin-top: 20px;
+  }
+  
+  #share-buttons p {
+    margin-bottom: 10px;
+  }
+  
+  #share-buttons button {
+    background-color:rgb(167, 50, 235);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #share-buttons button:last-child {
+    margin-right: 0;
+  }
+  
+  #share-buttons button:hover {
+    background-color: rgb(255, 60, 255);
+  }
+  
+  /* Popup message styles */
+  .popup {
+    display: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .popup p {
+    margin: 0;
+  }
+  
+ /* Footer styles */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
